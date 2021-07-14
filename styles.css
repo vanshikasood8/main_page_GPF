@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    box-sizing: border-box;
+    font-family: 'Arial' , sans-serif;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+footer{
+position: fixed;
+bottom: 0%;
+width: 100%;
+background-color: black;
+}
+
+.row{
+    display: flex;
+}
+.row .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+.box h5{
+
+font-size: 1.125rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+.list-unstyled{
+    margin: 20px 0 0 0 ;
+}
+.socialmedia{
+    margin : 20px 0 0 0 ;
+}
+.socialmedia a{
+    padding: 0 20px;
+}
+.socialmedia a span{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(247, 246, 250);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 70px;
+}
+ .list-unstyled .fas{
+font-size: 1.4125rem;
+
+}
+
+.list-unstyled .text{
+    font-size: 1.0rem;
+    font-weight: 500px;
+    padding-left: 10px;
+    
+    }
+.list-unstyled .phone{
+margin: 10px 0;
+}
+
+.right .btn{
+    margin-top: 40px;
+}
+.right .btn button{
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: red;
+    cursor: pointer;
+}
+.international-page-btn{
+    margin-top: 20px;
+}
+.international-page-btn button{
+height: 30px;
+width: 100%;
+border: none;
+outline:none;
+background-color: green;
+cursor:pointer;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.fa-google-plus-g{
+    color: #db4a39;
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.bottom center{
+    margin: 10px;
+    padding: 5px;
+    font-size: 0.93rem;
+}
+.bottom center span{
+    color: whitesmoke;
+}
+.bottom center a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
