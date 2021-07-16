@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+}
+.feed-heading{
+    margin-left:42%;
+    z-index: 1;
+    position: relative;
+}
+.line{
+    width: 14%;
+    background-color: #07689F;
+    height: 5px;
+    margin-left: 45%;
+
+}
+.feedback{      
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.padding {
+    padding: 5rem
+}
+
+.feed-card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.feed-card .card-body {
+    padding: 1rem 1rem
+}
+
+.feed-card.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.feed-card p {
+    font-size: 1.475rem;
+    margin-bottom: .5rem;
+    line-height: 1.7rem
+}
+
+.feed-card h4 {
+    line-height: .2 !important
+}
+
+
+.profile-pic {
+    margin-top: 70%;
+    width: 58px
+}
+
+.cust-name {
+    margin-top: 35%;
+    margin-left: -20%;
+    font-size: 18px;
+    color:#07689F
+}
+
+
+.items {
+    height: 50%;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.slick-slide {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+@media (max-width:1023.98px)
+{
+    .feed-heading{
+        margin-left:32%;
+        z-index: 1;
+        position: relative;
+    }
+   
+    .line{
+        display: none;
+       
+    }
+    .feed-card{
+        height: 70%;
+    }
+    .profile-pic{
+        margin-top: 5%;
+         }
+ .cust-name{
+        margin-top: 13%;
+        margin-left: -20%;
+    }
+  
+}
+
+@media (max-width:765.98px)
+{
+    .line{
+       display: none;
+    }
+    .feed-card{
+        height: 70%;
+    }
+
+    .cust-name{
+        margin-top: 84%;
+        margin-left: -75%;
+    }
+   .cust-name#jaya{
+       margin-left: -180%;
+        margin-top: 180%;
+    }
+    .cust-name#jayas{
+        margin-left: -40%;
+        margin-top: 40%;
+    }
+    #sid{
+        margin-left: -53%;
+        margin-top: 60%;
+    }
+}
+@media (max-width:691.98px) {
+    .feedback{
+        height: 80%;
+        width: 98%;
+    }
+    .feed-card{
+        height: 100%;
+    }
+
+  
+     .feed-heading{
+        margin-left:20%;
+        font-size: 25px;
+        color: black;
+    }
+    .line{
+       display: none;
+    }
+    .padding {
+        padding: 1.5rem
+    }
+   
+    .items {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 100px;
+        
+    }
+   
+    .feed-card p{
+        font-size: 15px
+    }
+   
+    .cust-name{
+        font-size: 20px;
+        margin-left: -74%;
+    }
+    .cust-name#jayas{
+        margin-top: 17%;
+        margin-left: 0;
+    }
+    #jaya{
+        margin-top: 170%;
+        margin-left: -180%;
+    }
+  
+    #sid{
+        margin-left: -55%;
+    }
+    .profile-pic {
+        margin-top: 0%;
+        width: 68px
+    }
+   
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
